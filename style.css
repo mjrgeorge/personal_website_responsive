@@ -83,6 +83,13 @@ p {
   color: #555555;
   text-align: justify;
   margin-top: 5%;
+  letter-spacing: .12rem;
+  line-height: 1.3em;
+}
+
+p::first-letter{
+  color: #fd1ca7;
+  font-size: 3.5rem;
 }
 
 .link_button {
@@ -171,8 +178,8 @@ h5 {
 
 footer {
   text-align: center;
-  padding: 2% 0;
-  margin: 3% 5%;
+  padding: 1% 0;
+  margin: 1% 5%;
   background-image: url(images/background.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -184,8 +191,8 @@ footer span {
   text-transform: none;
 }
 
-footer i {
-  font-size: 2.2rem;
+footer i.fab {
+  font-size: 2.5rem;
   display: inline-block;
   color: #fd1ca7;
   border-radius: 50%;
@@ -193,7 +200,7 @@ footer i {
   transition: 0.5s;
 }
 
-footer i:hover {
+footer i.fab:hover {
   cursor: pointer;
   color: #fd72c8;
   transition: 0.5s;
@@ -208,7 +215,8 @@ footer i:hover {
   footer span {
     font-size: 1.3rem;
   }
+  footer i.fab {
+    font-size: 2rem;
   }
-  footer i {
-    font-size: 1.7rem;
   }
+
