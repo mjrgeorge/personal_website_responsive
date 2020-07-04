@@ -88,7 +88,7 @@ p {
 }
 
 p::first-letter{
-  color: #fd1ca7;
+  color: orange;
   font-size: 3.5rem;
 }
 
@@ -98,7 +98,7 @@ p::first-letter{
   font-size: 2rem;
   background-image: linear-gradient(180deg, #ec4c7a, #ec0679);
   border-radius: 5px;
-  padding: 2% 6%;
+  padding: 1.5% 6%;
   margin-top: 5%;
   display: inline-block;
   text-transform: uppercase;
@@ -128,7 +128,7 @@ p::first-letter{
 }
 
 .experiences_wrap .left_side {
-  border-image: linear-gradient(180deg, #ec4c7a, #ec0679);
+  border-image: linear-gradient(180deg, #fab2c6, #ec0679);
   border-image-slice: 1;
   border-left: 10px solid;
   box-shadow: 10px 10px 40px gray;
@@ -142,7 +142,7 @@ p::first-letter{
 }
 
 .experiences_wrap .right_side {
-  border-image: linear-gradient(180deg, #fce460, #ffd106);
+  border-image: linear-gradient(180deg, #fcee9e, orange);
   border-image-slice: 1;
   border-left: 10px solid;
   box-shadow: 10px 10px 40px gray;
@@ -202,7 +202,7 @@ footer i.fab {
 
 footer i.fab:hover {
   cursor: pointer;
-  color: #fd72c8;
+  color: orange;
   transition: 0.5s;
   transform: scale(0.7);
 }
